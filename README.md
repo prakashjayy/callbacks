@@ -13,7 +13,7 @@ reluhook = dict(__class_fullname__="pl_hooks.hooks.ForwardHookCallback",
               pre=False)
 ```
 
-[hooks](img/relu.png)
+![hooks](img/relu.png)
 
 
 ##TODO:

@@ -4,6 +4,8 @@ A repo to quickly experiment with hyper parameters for a simple classification p
 - To train `python train.py --cfg_path="configs/exp1.py"`
 
 ## Hooks for different layers 
+[inspired from fastai course](https://github.com/fastai/course22p2/tree/master/miniai)
+
 Add to config in this way
 ```python
 reluhook = dict(__class_fullname__="pl_hooks.hooks.ForwardHookCallback", 
